@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { ShareModule } from 'src/app/share/share.module';
 import { HomeRoutingModule } from './home-routing.module';
+import { HomeComponent } from './home.component';
+import { WyCarouselComponent } from './components/wy-carousel/wy-carousel.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [HomeComponent, WyCarouselComponent],
   imports: [
-    CommonModule,
     ShareModule,
-    HomeRoutingModule,
+    HomeRoutingModule
   ]
 })
 export class HomeModule { }

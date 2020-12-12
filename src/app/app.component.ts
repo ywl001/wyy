@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wyy';
+
+  array = [1, 2, 3, 4];
+  effect = 'scrollx';
 }
